@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neighborhood Clean-up Initiative</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#events">Upcoming Events</a></li>
+        <li><a href="#volunteer">Volunteer</a></li>
+        <li><a href="#forum">Forum</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="overview">
+    <h1>Welcome to the Neighborhood Clean-up Initiative</h1>
+    <p>Join us in making our community cleaner and greener! We are organizing regular clean-up events to make our streets and parks beautiful again.</p>
+  </section>
+
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <ul>
+      <li>Community Park Clean-up - February 15, 9 AM</li>
+      <li>Riverbank Clean-up - February 22, 8 AM</li>
+      <li>Neighborhood Street Clean-up - March 1, 10 AM</li>
+    </ul>
+  </section>
+
+  <section id="volunteer">
+    <h2>Volunteer</h2>
+    <form id="volunteer-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <button type="submit">Sign Up to Volunteer</button>
+    </form>
+  </section>
+
+  <section id="forum">
+    <h2>Discussion Forum</h2>
+    <div id="forum-posts">
+      <!-- Posts will appear here -->
+    </div>
+    <textarea id="new-post" placeholder="Share your thoughts or suggestions..."></textarea>
+    <button onclick="addPost()">Post</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Neighborhood Clean-up Initiative. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
